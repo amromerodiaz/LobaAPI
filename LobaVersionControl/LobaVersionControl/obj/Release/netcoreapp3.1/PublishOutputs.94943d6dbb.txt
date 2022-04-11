@@ -1,0 +1,7 @@
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\LobaVersionControl.exe
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\LobaVersionControl.dll
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\LobaVersionControl.deps.json
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\LobaVersionControl.runtimeconfig.json
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\LobaVersionControl.pdb

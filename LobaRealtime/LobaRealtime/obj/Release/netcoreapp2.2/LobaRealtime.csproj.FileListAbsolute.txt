@@ -1,0 +1,16 @@
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\netcoreapp2.2\LobaRealtime.deps.json
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\netcoreapp2.2\LobaRealtime.runtimeconfig.json
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\netcoreapp2.2\LobaRealtime.runtimeconfig.dev.json
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\netcoreapp2.2\LobaRealtime.dll
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\netcoreapp2.2\LobaRealtime.pdb
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.csproj.AssemblyReference.cache
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.AssemblyInfoInputs.cache
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.AssemblyInfo.cs
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.csproj.CoreCompileInputs.cache
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.RazorAssemblyInfo.cache
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.RazorAssemblyInfo.cs
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.RazorTargetAssemblyInfo.cache
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.dll
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.pdb
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\LobaRealtime.genruntimeconfig.cache

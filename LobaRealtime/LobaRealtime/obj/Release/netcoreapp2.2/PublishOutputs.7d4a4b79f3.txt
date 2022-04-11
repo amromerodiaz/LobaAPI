@@ -1,0 +1,8 @@
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\PubTmp\Out\wwwroot\index.html
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\PubTmp\Out\wwwroot\lib\signalr.js
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\PubTmp\Out\wwwroot\lib\signalr.min.js
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\PubTmp\Out\wwwroot\lib\third-party-notices.txt
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\PubTmp\Out\LobaRealtime.dll
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\PubTmp\Out\LobaRealtime.runtimeconfig.json
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\PubTmp\Out\LobaRealtime.pdb
+E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\netcoreapp2.2\PubTmp\Out\LobaRealtime.deps.json

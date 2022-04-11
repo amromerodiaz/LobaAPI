@@ -1,0 +1,41 @@
+E:\API\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\appsettings.Development.json
+E:\API\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\appsettings.json
+E:\API\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.exe
+E:\API\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.deps.json
+E:\API\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.runtimeconfig.json
+E:\API\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.runtimeconfig.dev.json
+E:\API\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.dll
+E:\API\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.pdb
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.csproj.AssemblyReference.cache
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.AssemblyInfoInputs.cache
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.AssemblyInfo.cs
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.csproj.CoreCompileInputs.cache
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.MvcApplicationPartsAssemblyInfo.cache
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\LobaVersionControl.StaticWebAssets.Manifest.cache
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\LobaVersionControl.StaticWebAssets.xml
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\scopedcss\bundle\LobaVersionControl.styles.css
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.RazorTargetAssemblyInfo.cache
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.dll
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.pdb
+E:\API\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.genruntimeconfig.cache
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\appsettings.Development.json
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\appsettings.json
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.exe
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.deps.json
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.runtimeconfig.json
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.runtimeconfig.dev.json
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.dll
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.pdb
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.csproj.AssemblyReference.cache
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.AssemblyInfoInputs.cache
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.AssemblyInfo.cs
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.csproj.CoreCompileInputs.cache
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.MvcApplicationPartsAssemblyInfo.cache
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\LobaVersionControl.StaticWebAssets.Manifest.cache
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\LobaVersionControl.StaticWebAssets.xml
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\scopedcss\bundle\LobaVersionControl.styles.css
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.RazorTargetAssemblyInfo.cache
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.dll
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.pdb
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.genruntimeconfig.cache
+E:\API\Loba APIs\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.GeneratedMSBuildEditorConfig.editorconfig
