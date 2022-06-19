@@ -12157,23 +12157,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\faiql\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\API\\Loba APIs\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
+      "projectUniqueName": "D:\\MyProjects\\LobaAPI-master\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
       "projectName": "LobaRealtime",
-      "projectPath": "E:\\API\\Loba APIs\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
-      "packagesPath": "C:\\Users\\faiql\\.nuget\\packages\\",
-      "outputPath": "E:\\API\\Loba APIs\\LobaAPI\\LobaRealtime\\LobaRealtime\\obj\\",
+      "projectPath": "D:\\MyProjects\\LobaAPI-master\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\MyProjects\\LobaAPI-master\\LobaRealtime\\LobaRealtime\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\faiql\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12185,7 +12181,6 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "targetAlias": "netcoreapp2.2",
           "projectReferences": {}
         }
       },
@@ -12197,7 +12192,6 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
@@ -12227,7 +12221,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
