@@ -12,8 +12,8 @@ namespace LobaVersionControl.Controllers
     public class LobaVersionController : ControllerBase
     {
         // This below two variable we have change give the same number we have given in unity
-        public static float androidVersion = 14.0f;
-        public static float iOSVersion = 14.0f;
+        public static float androidVersion = 16.0f;
+        public static float iOSVersion = 16.0f;
 
         private readonly ILogger<LobaVersionController> _logger;
 

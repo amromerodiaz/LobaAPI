@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
 using LobaRealtime.Hubs;
 
 namespace LobaRealtime
@@ -19,6 +20,8 @@ namespace LobaRealtime
                         .AllowCredentials();
                 });
             });
+            
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -28,6 +31,8 @@ namespace LobaRealtime
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.UseHttpsRedirection();
 
             app.UseFileServer();
             app.UseCors();
@@ -36,6 +41,9 @@ namespace LobaRealtime
             {
                 routes.MapHub<ConnectionHub>("/chat");
             });
+
+            
+
         }
     }
 }
