@@ -1,14 +1,18 @@
 ﻿using LobaRealtime.Classes;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.SignalR;
+using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient.Memcached;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Diagnostics;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading.Tasks;
 using System.Web;
+
 
 namespace LobaRealtime.Hubs
 {
@@ -47,15 +51,55 @@ namespace LobaRealtime.Hubs
 
         public void NotifyRegisteredPlayersAboutOnlineStatus(Player player, bool online)
         {
+            Debug.WriteLine("-=-=-=-=Above player return");
             if (player == null) return;
+
+            Debug.WriteLine("-=-=-=-=-=-=-=-=inside notify-=-=-=-=-=-=-=>");
             List<string> connectionIDs = usersManager.GetPlayersToNotify();
-            Clients.Clients(connectionIDs).SendAsync("PlayerStatus", JsonConvert.SerializeObject(player), online);
+
+            for (int i = 0; i < connectionIDs.Count; i++)
+            {
+                Debug.WriteLine(connectionIDs[i]);
+                Clients.Client(connectionIDs[i]).SendAsync("PlayerStatus", JsonConvert.SerializeObject(player), online);
+            }
+
+            //Clients.Clients(connectionIDs).SendAsync("PlayerStatus", JsonConvert.SerializeObject(player), online);
         }
 
         public void InvitePlayers(string connectionIDs, string invitationJson)
         {
             List<string> CIDs = JsonConvert.DeserializeObject<List<string>>(connectionIDs);
             Clients.Clients(CIDs).SendAsync("InvitationReceived", invitationJson);
+
+            Classes.Module.ModuleClass moduleClass = JsonConvert.DeserializeObject<Classes.Module.ModuleClass>(invitationJson);
+
+            Console.WriteLine(invitationJson);
+            Console.WriteLine(moduleClass.senderName);
+
+            string logmsg = null;
+            logmsg = moduleClass.senderName + " invite[ " + moduleClass.roomName + " ] to Players";
+            for (int i = 0; i < moduleClass.players.Count; i++)
+            {
+                logmsg = logmsg + " [ " + moduleClass.players[i].name + " ] ";
+            }
+          //  Send_Receive_log(moduleClass.senderName, logmsg, moduleClass.roomName);
+
+            logmsg = null;
+            logmsg = "Player " + moduleClass.senderName + " has created a Room [ " + moduleClass.roomName + " ] ";
+          //  Send_Receive_log(moduleClass.senderName, logmsg, moduleClass.roomName);
+
+            if (moduleClass.isTournament)
+            {
+                logmsg = null;
+                logmsg = "Player " + moduleClass.senderName + " starts a tournament [ " + moduleClass.roomName + " ] ";
+                //Send_Receive_log(moduleClass.senderName, logmsg, moduleClass.roomName);
+            }
+            else
+            {
+                logmsg = null;
+                logmsg = "Player " + moduleClass.senderName + " starts a single game [ " + moduleClass.roomName + " ] ";
+               // Send_Receive_log(moduleClass.senderName, logmsg, moduleClass.roomName);
+            }
         }
 
         public void ChangeOnlineStatus(string name, bool newStatus)
@@ -76,6 +120,66 @@ namespace LobaRealtime.Hubs
                 Clients.Clients(connectionIDs).SendAsync(methodName, arg1);
         }
 
+        //This was add by me 
+        public void AcceptInvitation(string name , string Sendername , string roomid , bool Accepted)
+        {
+            if (Accepted)
+            {
+                System.Diagnostics.Debug.WriteLine("ChangeOnlineStatus: " + name + ", " + Sendername + " " + roomid + " " + Accepted);
+                string logmsg = "Player ["+ name +" ] accept invitation from [ "+ Sendername +" ]";
+               // Send_Receive_log(name, logmsg, roomid);
+                
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine("ChangeOnlineStatus: " + name + ", " + Sendername + " " + roomid + " " + Accepted);
+                string logmsg = "Player [" + name + " ] rejected the invitation from [ " + Sendername + " ]";
+               // Send_Receive_log(name, logmsg, roomid);
+            }
+            Send_Invitation_Result(name, Sendername, roomid, Accepted);
+
+        }
+
+        public void Send_Invitation_Result(string name ,string SenderName,string roomid , bool Accepted)
+        {
+            System.Diagnostics.Debug.WriteLine("Send_Invitation_Result : " + name + ", " + SenderName + " " + roomid + " " + Accepted);
+            var ID = usersManager.FindConnectionIDByName(SenderName);
+            Clients.Client(ID).SendAsync("Send_Invitation_Result", name, Accepted);
+
+        }
+
+        public void Player_Leave_Room(string name , string roomid , bool host)
+        {
+            if(host)
+            {
+                Console.WriteLine("Player_Leave_Room" + name + " left the room" + roomid + " " + host);
+                string logmsg = "Player(Host) [" + name + " ] left the room [ " + roomid + " ]";
+               // Send_Receive_log(name, logmsg, roomid);
+            }
+            else
+            {
+                Console.WriteLine("Player_Leave_Room" + name + " left the room" + roomid +" " + host);
+                string logmsg = "Player [" + name + " ] left the room [ " + roomid + " ]";
+               // Send_Receive_log(name, logmsg, roomid);
+            }
+        }
+
+        public void Player_playing_Locally(string name , bool isTournament)
+        {
+            if(isTournament)
+            {
+                Console.WriteLine("Player ["+ name + "] playing [Tournament] locally");
+                string logmsg = "Player [" + name + "] playing [Tournament] locally";
+               // Send_Receive_log(name, logmsg, "locally");
+            }
+            else
+            {
+                Console.WriteLine("Player [" + name + "] playing [Single] locally");
+                string logmsg = "Player [" + name + "] playing [Single] locally";
+              //  Send_Receive_log(name, logmsg, "locally");
+            }
+        }
+
         public override Task OnConnectedAsync()
         {
             string connectionID = Context.ConnectionId;
@@ -91,6 +195,8 @@ namespace LobaRealtime.Hubs
             NotifyRegisteredPlayersAboutOnlineStatus(newPlayer, true);
             FetchPlayersCount(null);
 
+           // Post("Player Connected to Server", name);
+
             return base.OnConnectedAsync();
         }
 
@@ -101,9 +207,86 @@ namespace LobaRealtime.Hubs
             NotifyRegisteredPlayersAboutOnlineStatus(player, false);
             FetchPlayersCount(null);
 
-
+           // Post("Player Disconnected to Server", player.name);
             // remove(user);
             return base.OnDisconnectedAsync(exception);
         }
+
+        public void Post(string logmsg, string name)
+        {
+            string connectionstring;
+              connectionstring = "SERVER=localhost;PORT=3306;DATABASE=iniviation;UID=root;PASSWORD=Paritosh#5";
+          //  connectionstring = "SERVER=localhost;PORT=53944;DATABASE=invitations;UID=azure;PASSWORD=6#vWHD_$";
+            MySqlConnection cnn = new MySqlConnection(connectionstring);
+            cnn.Open();
+
+            if (cnn.State == System.Data.ConnectionState.Open)
+            {
+                Debug.WriteLine("0-0-0-0-0-0-0-0>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+            }
+            
+            //Console.Write("lOLOLOLOLOLOL");
+            //string query = "select * from logs;";
+            string query = "INSERT INTO log (Log_msg, Player_Name) VALUES (@msg, @playerid);";
+            MySqlCommand cmd = new MySqlCommand(query, cnn);
+
+            cmd.Parameters.AddWithValue("@msg", logmsg);
+            cmd.Parameters.AddWithValue("@playerid", name);
+
+            MySqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                //Debug.WriteLine(reader["LogId"]);
+                Debug.WriteLine(reader["Log_msg"]);
+                Debug.WriteLine(reader["Player_Name"]);
+                //Debug.WriteLine(reader["LogTime"]);
+                //Console.WriteLine(reader["LogId"]);
+
+            }
+            cnn.Close();
+        }
+
+        public void Send_Receive_log(string sender , string logmsg , string roomid)
+        {
+            string connectionstring;
+           // connectionstring = "SERVER=localhost;PORT=53944;DATABASE=invitations;UID=azure;PASSWORD=6#vWHD_$";
+            connectionstring = "SERVER=localhost;PORT=3306;DATABASE=iniviation;UID=root;PASSWORD=Paritosh#5";
+            MySqlConnection cnn = new MySqlConnection(connectionstring);
+            cnn.Open();
+
+            if (cnn.State == System.Data.ConnectionState.Open)
+            {
+                Debug.WriteLine("0-0-0-0-0-0-0-0>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+            }
+            //Console.Write("lOLOLOLOLOLOL");
+            //string query = "select * from logs;";
+            string query = "INSERT INTO invitationlog (Log_msg,Sender_Name,RoomID) VALUES (@msg, @sender,@RoomID);";
+            MySqlCommand cmd = new MySqlCommand(query, cnn);
+
+            cmd.Parameters.AddWithValue("@msg", logmsg);
+            cmd.Parameters.AddWithValue("@sender", sender);
+            cmd.Parameters.AddWithValue("@RoomID", roomid);
+
+            MySqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                //Debug.WriteLine(reader["LogId"]);
+                Debug.WriteLine(reader["Log_msg"]);
+                Debug.WriteLine(reader["Sender_Name"]);
+                //Debug.WriteLine(reader["LogTime"]);
+                //Console.WriteLine(reader["LogId"]);
+
+            }
+
+            cnn.Close();
+        }
+
+
     }
+
+
+    
+
 }

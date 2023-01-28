@@ -116,5 +116,10 @@ namespace LobaRealtime.Classes
         {
             return players[players.FindIndex(user => user.name == name)].connectionID;
         }
+
+        public string FindPlayerNameByCID(string connectionID)
+        {
+            return players[players.FindIndex(user => user.connectionID == connectionID)].name;
+        }
     }
 }

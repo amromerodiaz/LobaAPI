@@ -14,14 +14,11 @@ E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaR
 E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.pdb
 E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.genruntimeconfig.cache
 E:\API\Loba APIs\LobaAPI\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.GeneratedMSBuildEditorConfig.editorconfig
-D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
-D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\bin\Debug\netcoreapp2.2\Properties\ServiceDependencies\LobaInvitations - Web Deploy\profile.arm.json
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\bin\Debug\netcoreapp2.2\LobaRealtime.deps.json
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\bin\Debug\netcoreapp2.2\LobaRealtime.runtimeconfig.json
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\bin\Debug\netcoreapp2.2\LobaRealtime.runtimeconfig.dev.json
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\bin\Debug\netcoreapp2.2\LobaRealtime.dll
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\bin\Debug\netcoreapp2.2\LobaRealtime.pdb
-D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.csprojAssemblyReference.cache
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.AssemblyInfoInputs.cache
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.AssemblyInfo.cs
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.csproj.CoreCompileInputs.cache
@@ -31,3 +28,5 @@ D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\L
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.dll
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.pdb
 D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.genruntimeconfig.cache
+D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.csproj.AssemblyReference.cache
+D:\MyProjects\LobaAPI-master\LobaRealtime\LobaRealtime\obj\Debug\netcoreapp2.2\LobaRealtime.GeneratedMSBuildEditorConfig.editorconfig

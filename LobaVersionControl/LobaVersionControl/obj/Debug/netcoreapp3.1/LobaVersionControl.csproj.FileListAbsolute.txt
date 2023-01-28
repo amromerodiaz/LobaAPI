@@ -26,7 +26,6 @@ D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\net
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\LobaVersionControl.runtimeconfig.dev.json
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\LobaVersionControl.dll
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\LobaVersionControl.pdb
-D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.csprojAssemblyReference.cache
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.AssemblyInfoInputs.cache
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.AssemblyInfo.cs
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.csproj.CoreCompileInputs.cache
@@ -38,3 +37,18 @@ D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\net
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.dll
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.pdb
 D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.genruntimeconfig.cache
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.csproj.AssemblyReference.cache
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\MySql.Data.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\ZstdNet.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Debug\netcoreapp3.1\LobaVersionControl.csproj.CopyComplete

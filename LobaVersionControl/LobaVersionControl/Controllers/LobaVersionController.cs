@@ -2,6 +2,17 @@
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Threading.Tasks;
+using MySql.Data;
+using MySql.Data.MySqlClient;
+using System.Diagnostics;
+
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -12,8 +23,8 @@ namespace LobaVersionControl.Controllers
     public class LobaVersionController : ControllerBase
     {
         // This below two variable we have change give the same number we have given in unity
-        public static float androidVersion = 16.0f;
-        public static float iOSVersion = 16.0f;
+        public static float androidVersion = 21.0f;
+        public static float iOSVersion = 21.0f;
 
         private readonly ILogger<LobaVersionController> _logger;
 
