@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.SignalR;
 using MySql.Data.MySqlClient;
-using MySql.Data.MySqlClient.Memcached;
+using MySql.Data.MySqlClient.Memcached; 
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -162,6 +162,15 @@ namespace LobaRealtime.Hubs
                 string logmsg = "Player [" + name + " ] left the room [ " + roomid + " ]";
                // Send_Receive_log(name, logmsg, roomid);
             }
+        }
+
+        public void Host_Leave_Room(string name , string connectionIDs , string roomid)
+        {
+            List<string> CIDs = JsonConvert.DeserializeObject<List<string>>(connectionIDs);
+            System.Diagnostics.Debug.WriteLine("Host Leave Room : " +connectionIDs);
+
+            Clients.Clients(CIDs).SendAsync("Host_Disconnected", name);
+
         }
 
         public void Player_playing_Locally(string name , bool isTournament)

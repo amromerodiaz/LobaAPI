@@ -37,7 +37,11 @@ namespace LobaRealtime
             app.UseFileServer();
             app.UseCors();
 
-            app.UseSignalR(routes =>
+            //this is add by mw
+            app.UseRouting();
+           
+
+            app.UseEndpoints(routes =>
             {
                 routes.MapHub<ConnectionHub>("/chat");
             });
