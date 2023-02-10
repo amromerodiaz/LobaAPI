@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="D:\MyProjects\LobaAPI-master\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\" />
+  <IisApp path="D:\Client Project\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\PubTmp\Out\" />
 </sitemanifest>

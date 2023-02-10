@@ -977,19 +977,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kyraa\\.nuget\\packages\\": {}
+    "C:\\Users\\Paritosh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LobaAPI-master\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
+      "projectUniqueName": "D:\\Client Project\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
       "projectName": "LobaRealtime",
-      "projectPath": "D:\\LobaAPI-master\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
-      "packagesPath": "C:\\Users\\Kyraa\\.nuget\\packages\\",
-      "outputPath": "D:\\LobaAPI-master\\LobaRealtime\\LobaRealtime\\obj\\",
+      "projectPath": "D:\\Client Project\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
+      "packagesPath": "C:\\Users\\Paritosh\\.nuget\\packages\\",
+      "outputPath": "D:\\Client Project\\LobaAPI\\LobaRealtime\\LobaRealtime\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kyraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Paritosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -997,6 +1002,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
