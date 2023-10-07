@@ -24,7 +24,8 @@ namespace LobaRealtime.Hubs
         public void RegisterForOnlineNotification(string name, bool register)
         {
             usersManager.PrintPlayers();
-            System.Diagnostics.Debug.WriteLine("RegisterForOnlineNotification: " + name + ", " + register);
+            System.Diagnostics.Trace.TraceError("RegisterForOnlineNotification: " + name + ", " + register);
+            Console.Write("RegisterForOnlineNotification: " + name + ", " + register);
             string ID = usersManager.Register(name, register);
             GetOnlinePlayers(null, ID);
         }
@@ -50,15 +51,15 @@ namespace LobaRealtime.Hubs
 
         public void NotifyRegisteredPlayersAboutOnlineStatus(Player player, bool online)
         {
-            Debug.WriteLine("-=-=-=-=Above player return");
+            Trace.TraceError("-=-=-=-=Above player return");
             if (player == null) return;
 
-            Debug.WriteLine("-=-=-=-=-=-=-=-=inside notify-=-=-=-=-=-=-=>");
+            Trace.TraceError("-=-=-=-=-=-=-=-=inside notify-=-=-=-=-=-=-=>");
             List<string> connectionIDs = usersManager.GetPlayersToNotify();
 
             for (int i = 0; i < connectionIDs.Count; i++)
             {
-                Debug.WriteLine(connectionIDs[i]);
+                Trace.TraceError(connectionIDs[i]);
                 Clients.Client(connectionIDs[i]).SendAsync("PlayerStatus", JsonConvert.SerializeObject(player), online);
             }
 
@@ -124,14 +125,14 @@ namespace LobaRealtime.Hubs
         {
             if (Accepted)
             {
-                System.Diagnostics.Debug.WriteLine("ChangeOnlineStatus: " + name + ", " + Sendername + " " + roomid + " " + Accepted);
+                System.Diagnostics.Trace.WriteLine("ChangeOnlineStatus: " + name + ", " + Sendername + " " + roomid + " " + Accepted);
                 string logmsg = "Player ["+ name +" ] accept invitation from [ "+ Sendername +" ]";
                // Send_Receive_log(name, logmsg, roomid);
                 
             }
             else
             {
-                System.Diagnostics.Debug.WriteLine("ChangeOnlineStatus: " + name + ", " + Sendername + " " + roomid + " " + Accepted);
+                System.Diagnostics.Trace.WriteLine("ChangeOnlineStatus: " + name + ", " + Sendername + " " + roomid + " " + Accepted);
                 string logmsg = "Player [" + name + " ] rejected the invitation from [ " + Sendername + " ]";
                // Send_Receive_log(name, logmsg, roomid);
             }
@@ -141,7 +142,7 @@ namespace LobaRealtime.Hubs
 
         public void Send_Invitation_Result(string name ,string SenderName,string roomid , bool Accepted)
         {
-            System.Diagnostics.Debug.WriteLine("Send_Invitation_Result : " + name + ", " + SenderName + " " + roomid + " " + Accepted);
+            System.Diagnostics.Trace.WriteLine("Send_Invitation_Result : " + name + ", " + SenderName + " " + roomid + " " + Accepted);
             var ID = usersManager.FindConnectionIDByName(SenderName);
             Clients.Client(ID).SendAsync("Send_Invitation_Result", name, Accepted);
 
@@ -151,13 +152,13 @@ namespace LobaRealtime.Hubs
         {
             if(host)
             {
-                Console.WriteLine("Player_Leave_Room" + name + " left the room" + roomid + " " + host);
+                System.Diagnostics.Trace.WriteLine("Player_Leave_Room" + name + " left the room" + roomid + " " + host);
                 string logmsg = "Player(Host) [" + name + " ] left the room [ " + roomid + " ]";
                // Send_Receive_log(name, logmsg, roomid);
             }
             else
             {
-                Console.WriteLine("Player_Leave_Room" + name + " left the room" + roomid +" " + host);
+                System.Diagnostics.Trace.WriteLine("Player_Leave_Room" + name + " left the room" + roomid +" " + host);
                 string logmsg = "Player [" + name + " ] left the room [ " + roomid + " ]";
                // Send_Receive_log(name, logmsg, roomid);
             }
@@ -174,13 +175,13 @@ namespace LobaRealtime.Hubs
         {
             if(isTournament)
             {
-                Console.WriteLine("Player ["+ name + "] playing [Tournament] locally");
+                System.Diagnostics.Trace.WriteLine("Player ["+ name + "] playing [Tournament] locally");
                 string logmsg = "Player [" + name + "] playing [Tournament] locally";
                // Send_Receive_log(name, logmsg, "locally");
             }
             else
             {
-                Console.WriteLine("Player [" + name + "] playing [Single] locally");
+                System.Diagnostics.Trace.WriteLine("Player [" + name + "] playing [Single] locally");
                 string logmsg = "Player [" + name + "] playing [Single] locally";
               //  Send_Receive_log(name, logmsg, "locally");
             }
@@ -228,7 +229,7 @@ namespace LobaRealtime.Hubs
 
             if (cnn.State == System.Data.ConnectionState.Open)
             {
-                Debug.WriteLine("0-0-0-0-0-0-0-0>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+                Trace.TraceError("0-0-0-0-0-0-0-0>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
             }
             
             //Console.Write("lOLOLOLOLOLOL");
@@ -244,8 +245,8 @@ namespace LobaRealtime.Hubs
             while (reader.Read())
             {
                 //Debug.WriteLine(reader["LogId"]);
-                Debug.WriteLine(reader["Log_msg"]);
-                Debug.WriteLine(reader["Player_Name"]);
+                System.Diagnostics.Trace.TraceError(reader["Log_msg"].ToString());
+                System.Diagnostics.Trace.TraceError(reader["Player_Name"].ToString());
                 //Debug.WriteLine(reader["LogTime"]);
                 //Console.WriteLine(reader["LogId"]);
 
@@ -263,7 +264,7 @@ namespace LobaRealtime.Hubs
 
             if (cnn.State == System.Data.ConnectionState.Open)
             {
-                Debug.WriteLine("0-0-0-0-0-0-0-0>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+                System.Diagnostics.Trace.TraceError("0-0-0-0-0-0-0-0>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
             }
             //Console.Write("lOLOLOLOLOLOL");
             //string query = "select * from logs;";
@@ -279,8 +280,8 @@ namespace LobaRealtime.Hubs
             while (reader.Read())
             {
                 //Debug.WriteLine(reader["LogId"]);
-                Debug.WriteLine(reader["Log_msg"]);
-                Debug.WriteLine(reader["Sender_Name"]);
+                System.Diagnostics.Trace.TraceError(reader["Log_msg"].ToString());
+                System.Diagnostics.Trace.TraceError(reader["Sender_Name"].ToString());
                 //Debug.WriteLine(reader["LogTime"]);
                 //Console.WriteLine(reader["LogId"]);
 

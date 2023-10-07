@@ -17,7 +17,7 @@ namespace LobaRealtime.Classes
 
         public Player(string connectionID, string name, string avatarIndex, bool showOnline, string level)
         {
-            System.Diagnostics.Debug.WriteLine($"lvl {level} {name}:{connectionID} joined with {avatarIndex}");
+            System.Diagnostics.Trace.TraceError($"lvl {level} {name}:{connectionID} joined with {avatarIndex}");
             this.connectionID = connectionID;
             this.name = name;
             this.avatarIndex = avatarIndex;
@@ -27,7 +27,7 @@ namespace LobaRealtime.Classes
 
         public void Print()
         {
-            System.Diagnostics.Debug.WriteLine($"{name}:{connectionID} joined with {avatarIndex}");
+            System.Diagnostics.Trace.TraceError($"{name}:{connectionID} joined with {avatarIndex}");
         }
     }
 }

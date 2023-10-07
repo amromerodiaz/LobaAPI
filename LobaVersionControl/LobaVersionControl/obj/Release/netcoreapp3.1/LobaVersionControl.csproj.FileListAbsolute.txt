@@ -113,3 +113,41 @@ D:\Client Project\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netc
 D:\Client Project\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.dll
 D:\Client Project\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.pdb
 D:\Client Project\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.genruntimeconfig.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\appsettings.json
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.exe
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.deps.json
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.runtimeconfig.json
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.runtimeconfig.dev.json
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\LobaVersionControl.pdb
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\Google.Protobuf.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\K4os.Compression.LZ4.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\K4os.Hash.xxHash.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\MySql.Data.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\Ubiety.Dns.Core.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\ZstdNet.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.csproj.AssemblyReference.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.AssemblyInfoInputs.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.AssemblyInfo.cs
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.csproj.CoreCompileInputs.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.MvcApplicationPartsAssemblyInfo.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\LobaVersionControl.StaticWebAssets.Manifest.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.RazorTargetAssemblyInfo.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.csproj.CopyComplete
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.pdb
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\LobaVersionControl.genruntimeconfig.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\LobaVersionControl.StaticWebAssets.Pack.cache
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\msbuild.LobaVersionControl.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\msbuild.build.LobaVersionControl.props
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.LobaVersionControl.props
+D:\Paritosh\LobaAPI\LobaVersionControl\LobaVersionControl\obj\Release\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.LobaVersionControl.props

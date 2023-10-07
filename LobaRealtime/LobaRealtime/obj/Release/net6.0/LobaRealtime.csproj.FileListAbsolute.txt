@@ -35,3 +35,40 @@ D:\Client Project\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\refint\Lo
 D:\Client Project\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.pdb
 D:\Client Project\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.genruntimeconfig.cache
 D:\Client Project\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\ref\LobaRealtime.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\LobaRealtime.exe
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\LobaRealtime.deps.json
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\LobaRealtime.runtimeconfig.json
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\LobaRealtime.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\LobaRealtime.pdb
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\Google.Protobuf.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\K4os.Compression.LZ4.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\K4os.Hash.xxHash.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\MySql.Data.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\Ubiety.Dns.Core.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\ZstdNet.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\Newtonsoft.Json.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\BouncyCastle.Crypto.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\System.Drawing.Common.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\System.Security.Permissions.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\System.Windows.Extensions.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.csproj.AssemblyReference.cache
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.AssemblyInfoInputs.cache
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.AssemblyInfo.cs
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.csproj.CoreCompileInputs.cache
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.MvcApplicationPartsAssemblyInfo.cache
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.csproj.CopyComplete
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\refint\LobaRealtime.dll
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.pdb
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\LobaRealtime.genruntimeconfig.cache
+D:\Paritosh\LobaAPI\LobaRealtime\LobaRealtime\obj\Release\net6.0\ref\LobaRealtime.dll

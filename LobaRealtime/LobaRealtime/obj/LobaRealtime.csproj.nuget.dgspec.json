@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Client Project\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj": {}
+    "D:\\Paritosh\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj": {}
   },
   "projects": {
-    "D:\\Client Project\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj": {
+    "D:\\Paritosh\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Client Project\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
+        "projectUniqueName": "D:\\Paritosh\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
         "projectName": "LobaRealtime",
-        "projectPath": "D:\\Client Project\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
-        "packagesPath": "C:\\Users\\Paritosh\\.nuget\\packages\\",
-        "outputPath": "D:\\Client Project\\LobaAPI\\LobaRealtime\\LobaRealtime\\obj\\",
+        "projectPath": "D:\\Paritosh\\LobaAPI\\LobaRealtime\\LobaRealtime\\LobaRealtime.csproj",
+        "packagesPath": "C:\\Users\\Paritosh Vaidya\\.nuget\\packages\\",
+        "outputPath": "D:\\Paritosh\\LobaAPI\\LobaRealtime\\LobaRealtime\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Paritosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Paritosh Vaidya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +44,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.AzureAppServices": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -78,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

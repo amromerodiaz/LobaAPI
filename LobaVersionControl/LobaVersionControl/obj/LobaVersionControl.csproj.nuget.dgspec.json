@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Client Project\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\LobaVersionControl.csproj": {}
+    "D:\\Paritosh\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\LobaVersionControl.csproj": {}
   },
   "projects": {
-    "D:\\Client Project\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\LobaVersionControl.csproj": {
+    "D:\\Paritosh\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\LobaVersionControl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Client Project\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\LobaVersionControl.csproj",
+        "projectUniqueName": "D:\\Paritosh\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\LobaVersionControl.csproj",
         "projectName": "LobaVersionControl",
-        "projectPath": "D:\\Client Project\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\LobaVersionControl.csproj",
-        "packagesPath": "C:\\Users\\Paritosh\\.nuget\\packages\\",
-        "outputPath": "D:\\Client Project\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\obj\\",
+        "projectPath": "D:\\Paritosh\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\LobaVersionControl.csproj",
+        "packagesPath": "C:\\Users\\Paritosh Vaidya\\.nuget\\packages\\",
+        "outputPath": "D:\\Paritosh\\LobaAPI\\LobaVersionControl\\LobaVersionControl\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Paritosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Paritosh Vaidya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +43,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.29, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -61,6 +60,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

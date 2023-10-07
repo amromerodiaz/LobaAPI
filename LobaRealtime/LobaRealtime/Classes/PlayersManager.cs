@@ -11,7 +11,7 @@ namespace LobaRealtime.Classes
 
         public PlayersManager()
         {
-            System.Diagnostics.Debug.WriteLine("Player Manager Created");
+            System.Diagnostics.Trace.TraceError("Player Manager Created");
         }
 
         public List<Player> GetOnlinePlayers()
@@ -23,7 +23,7 @@ namespace LobaRealtime.Classes
         {
             foreach (var player in players)
             {
-                System.Diagnostics.Debug.WriteLine("-------------------------");
+                System.Diagnostics.Trace.TraceError("-------------------------");
                 player.Print();
             }
         }
@@ -37,7 +37,7 @@ namespace LobaRealtime.Classes
         public Player TogglePlayerOnlineStatus(string name, bool status)
         {
             int index = FindPlayerIndexByName(name);
-            System.Diagnostics.Debug.WriteLine("Player found: " + (index != -1));
+            System.Diagnostics.Trace.TraceError("Player found: " + (index != -1));
 
             if (index == -1) return null;
             players[index].showOnline = status;
@@ -47,11 +47,11 @@ namespace LobaRealtime.Classes
 
         public Player MakePlayerOnline(string connectionID, string name, string avatarIndex, bool showOnline, string level)
         {
-            System.Diagnostics.Debug.WriteLine("Make online");
+            System.Diagnostics.Trace.TraceError("Make online");
             if (FindPlayerIndexByCID(connectionID) != -1) return null;
             if (connectionID != null && name != null && avatarIndex != null)
             {
-                System.Diagnostics.Debug.WriteLine("connectionID: " + connectionID);
+                System.Diagnostics.Trace.TraceError("connectionID: " + connectionID);
                 Player newPlayer = new Player(connectionID, name, avatarIndex, showOnline, level);
                 players.Add(newPlayer);
 
@@ -63,7 +63,7 @@ namespace LobaRealtime.Classes
 
         public Player MakePlayerOffline(string connectionID)
         {
-            System.Diagnostics.Debug.WriteLine("Make offline: " + connectionID);
+            System.Diagnostics.Trace.TraceError("Make offline: " + connectionID);
             int index = FindPlayerIndexByCID(connectionID);
             if (index == -1) return null;
             Player player = players[index];
@@ -82,7 +82,7 @@ namespace LobaRealtime.Classes
         {
             int index = FindPlayerIndexByName(name);
             if (index == -1) return null;
-            System.Diagnostics.Debug.WriteLine("Registered");
+            System.Diagnostics.Trace.TraceError("Registered");
             players[index].NotifyOnPlayerUpdate = register;
             return players[index].connectionID;
         }
